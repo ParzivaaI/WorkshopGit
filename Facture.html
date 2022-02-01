@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8" />
+        <title>Facture</title>
+        <link rel="stylesheet" type="text/css" href="Accueil.css">
+    </head>
+
+    <body>
+        <div id="headerdepage">
+            <h1>Facture</h1>
+            
+            <p>Bienvenue chez Nous.</p>
+
+            <a href="">Accueil</a>
+            <a href="">Link</a>
+            <a href="">Link</a> 
+        </div>
+
+        <div id="infos">
+ 
+            <div id="fournisseurinfos">
+
+
+                <h2>Fournisseur</h2>
+
+                <form method="post" action="traitement.php">
+                    <fieldset>
+                        <legend>Fournisseur</legend>
+                        <p>Choisissez votre fournisseur :</p>
+                        <select>
+                            <option>Fournisseur 1</option>
+                            <option>Fournisseur 2</option>
+                            <option>Fournisseur 3</option>
+                        </select>
+
+                    </fieldset>
+                </form>
+
+                <h2>Produit à commander</h2>
+
+                <form method="post" action="traitement.php">
+                    <fieldset>
+                        <legend>Vos produits</legend>
+                        <div class="checkboxcolonne">
+                            <div>
+                                <input type="checkbox" />
+                                <label>Crayons</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Feutres</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Tableau</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Tablette</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Craies</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Feuilles</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Cahier</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Portfolio</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" />
+                                <label>Copie double</label>
+                            </div>
+                        </div>
+                        
+                        <input id="validerboutton" type="submit" value="Valider" />
+                    </fieldset>
+                    
+                </form>
+            </div>
+
+            <div id="formulaireinformations">
+                <h2>Formulaire</h2>
+
+                <form method="post" action="traitement.php">
+                    <fieldset>
+                        <legend>Vos informations</legend>
+                        <p>
+                            <label>
+                                N° TVA
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            <label>
+                                Prénom :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+                        
+                        <p>
+                            <label>
+                                Nom :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            Choisissez votre sexe :
+                            <br/>
+                            <input type="radio" name="sexe"/>
+                            <label>Homme</label>
+                            <input type="radio" name="sexe"/>
+                            <label>Femme</label>
+                            <input type="radio" name="sexe"/>
+                            <label>Autre</label>
+                        </p>
+
+                        <p>
+                            <label>
+                                Email :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            <label>
+                                N° de Téléphone :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            <label>
+                                Adresse :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            <label>
+                                Région :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+
+                        <p>
+                            <label>
+                                Ville :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <p>
+                            <label>
+                                Code Postale :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+
+                        <p>
+                            <label>
+                                Carte de paiement :
+                            </label>
+                            <br/>
+                            <input type="text"/>
+                        </p>
+
+                        <input id="validerboutton" type="submit" value="Valider" />
+                        <input id="resetboutton" type="reset" value="Reset le formulaire" />
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
